@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <div class="header"><h1>Products Page</h1></div>
+    <div class="contain">
+        <div class="container">
+            <div class="product-ic">
+                <img src="images/icecream.png" class="display-product">
+                <button class="addToCart" onclick="add(this)" value="Ice Cream">Add To Cart</button>
+            </div>
+            <div class="product-cake">
+                <img src="images/cake.png" class="display-product">
+                <button class="addToCart" onclick="add(this)" value="Cake">Add To Cart</button>
+            </div>
+            <div class="product-cookie">
+                <img src="images/cookie.png" class="display-product">
+                <button class="addToCart" onclick="add(this)" value="Cookie">Add To Cart</button>
+                <!-- <button class="removeFromCart" onclick="remove()">Remove Item</button> -->
+            </div>
+        </div>
+        <!-- remove with a Math.random & with using splice() method -->
+        <div id="cart">
+            <div id="contain-cart">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
